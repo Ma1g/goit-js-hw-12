@@ -26,7 +26,7 @@ export default function renderImages(pictures) {
                     <p class="info-item"><b>Downloads:</b>${downloads}</p>
                 </div>
             </a>
-        </li>)`)
+        </li>`)
         .join('');
     
     refs.imageElem.insertAdjacentHTML('beforeend', markup);
