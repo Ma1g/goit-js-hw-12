@@ -18,7 +18,7 @@ export default function renderImages(pictures) {
         .map(({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) => 
         `<li class="gallery-item">
             <a href="${largeImageURL}">
-                <img src="${webformatURL}" alt="${tags}""/>
+                <img src="${webformatURL}" alt="${tags}"/>
                 <div class="img-info">
                     <p class="info-item"><b>Likes:</b>${likes}</p>
                     <p class="info-item"><b>Views:</b>${views}</p>
