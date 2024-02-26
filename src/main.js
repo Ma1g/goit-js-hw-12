@@ -41,6 +41,7 @@ async function onSearchImg(evt) {
         maxPage = Math.ceil(data.totalHits / 15);
 
         refs.imageElem.innerHTML = '';
+
         showImages(data.hits);
     } catch (error) {
         console.log(error.message);
